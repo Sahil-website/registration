@@ -5,6 +5,36 @@
   list-style: none;
   text-decoration: none;
 }
+.signup__input{
+    border-width: 1px !important;
+    border-radius: 2px !important;
+}
+.signup__label{
+    font-weight: 300 !important;
+    pointer-events: none !important;
+}
+.submit-btn{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    border: 1.5px solid white;
+}
+.submit-btn:active, .submit-btn:focus{
+    border: 1.5px solid rgb(29, 29, 29);
+    border-radius: 2px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .form-container{
   width: 923px;
@@ -98,6 +128,7 @@
 .uploader-sec{
   height: 200px !important;
   background-color: #10c08b !important;
+  transition: transform 0.35s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .loadfile{
   display: block;
@@ -109,8 +140,21 @@
   padding-left: 43.5% !important;
   padding-top: 90px;
   cursor: pointer;
-
+  transition: transform 0.35s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
+.uploader-sec:hover .loadfile{
+    transform: scale(.98) !important;
+    background-color: #09946a67 !important;
+    transition: transform 0.35s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+
+
+
+
+
+
+
 .loadfile:focus{
   outline: none;
 }
